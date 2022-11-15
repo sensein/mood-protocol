@@ -8,9 +8,9 @@ env:
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -35,7 +35,7 @@ jobs:
       run: |
         npm install -g jsonlint
         grep -r  "@context" activities | cut -d: -f1 | xargs -I fname jsonlint -q fname
-        grep -r  "@context" DemoProtocol | cut -d: -f1 | xargs -I fname jsonlint -q fname
+        grep -r  "@context" moodprotocol | cut -d: -f1 | xargs -I fname jsonlint -q fname
 
     # Validate the protocol
     - name: Set up Python 3.8
@@ -49,7 +49,7 @@ jobs:
     - name: Test with pyshacl
       run: |
         reproschema -l DEBUG validate activities
-        reproschema -l DEBUG validate DemoProtocol/DemoProtocol_schema
+        reproschema -l DEBUG validate moodprotocol/mood_protocol_schema
 
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
