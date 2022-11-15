@@ -1,0 +1,45 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+	"@type": "reproschema:Protocol",
+	"@id": "mood_protocol_schema",
+	"prefLabel": {
+		"en": "Protocol1",
+		"es": "Protocol1_es"
+	},
+	"description": "example Protocol",
+	"schemaVersion": "1.0.0-rc4",
+	"version": "0.0.1",
+	"landingPage": [{
+            "@id": "README.md",
+            "inLanguage": "en"
+        }
+    ],
+	"messages": [
+		{
+			"message": "Test message: Triggered when item1 value is greater than 0",
+			"jsExpression": "item1 > 0"
+		}
+	],
+	"ui": {
+        "addProperties": [
+            {
+                "isAbout": "../activities/demographics/demographics_schema",
+                "variableName": "demographics_schema",
+                "prefLabel": {"en": "Demographics"}
+            },
+            {
+                "isAbout": "../activities/social/social_schema",
+                "variableName": "social_schema",
+                "prefLabel": {"en": "Social background"}
+            }
+        ],
+    "order": [
+            "../activities/demographics/demographics_schema",
+            "../activities/social/social_schema"
+        ],
+		"shuffle": false,
+		"allow": [
+			"reproschema:AllowExport"
+		]
+	}
+}
