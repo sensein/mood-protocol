@@ -52,8 +52,8 @@
             "../activities/audio/audio_check_schema",
             "../activities/demographics/demographics_schema",
             "../activities/social/social_schema",
-            "../activities/social/clinical_schema",
-            "../activities/social/psychological_questionnaire_schema"
+            "../activities/clinical/clinical_schema",
+            "../activities/psychological/psychological_questionnaire_schema"
         ],
 		"shuffle": false,
 		"allow": [
