@@ -20,7 +20,8 @@
             },
             {
                 "variableName": "clinical_history_voice",
-                "isAbout": "demo:clinical_history_voice"
+                "isAbout": "demo:clinical_history_voice",
+                "isVis": "clinical_history_voice.includes(-1)"
             },
             {
                 "variableName": "clinical_history_voice_other",

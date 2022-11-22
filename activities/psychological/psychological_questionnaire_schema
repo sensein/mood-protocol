@@ -16,21 +16,21 @@
         "addProperties": [
             {
                 "variableName": "phq-9",
-                "isAbout": "activities:PHQ-9"
+                "isAbout": "activities:PHQ-9/PHQ9_schema"
             },
             {
                 "variableName": "gad-7",
-                "isAbout": "activities:GAD7"
+                "isAbout": "activities:GAD7/GAD7_schema"
             },
             {
                 "variableName": "pc-ptsd-5",
-                "isAbout": "activities:PC-PTSD-5"
+                "isAbout": "activities:PC-PTSD-5/PC-PTSD-5_schema"
             }
         ],
         "order": [
-            "activities:PHQ-9",
-            "activities:GAD7",
-            "activities:PC-PTSD-5"
+            "activities:PHQ-9/PHQ9_schema",
+            "activities:GAD7/GAD7_schema",
+            "activities:PC-PTSD-5/PC-PTSD-5_schema"
         ],
         "shuffle": false,
         "allow": [
