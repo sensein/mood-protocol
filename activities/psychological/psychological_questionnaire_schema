@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "activities": "https://raw.githubusercontent.com/ReproNim/reproschema-library/9c7ab57abded2c40dfb8ae9da52171ed2c0fdb6c/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "psychological_questionnaire_schema",
+    "prefLabel": "psychological questionnaire",
+    "description": "activity to collect psychological data of the participant",
+    "preamble": "This activity will ask you to rate your psychological states",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "phq-9",
+                "isAbout": "activities:PHQ-9"
+            },
+            {
+                "variableName": "gad-7",
+                "isAbout": "activities:GAD7"
+            },
+            {
+                "variableName": "pc-ptsd-5",
+                "isAbout": "activities:PC-PTSD-5"
+            }
+        ],
+        "order": [
+            "activities:PHQ-9",
+            "activities:GAD7",
+            "activities:PC-PTSD-5"
+        ],
+        "shuffle": false,
+        "allow": [
+			"reproschema:AutoAdvance",
+			"reproschema:AllowExport"
+		]
+    }
+}

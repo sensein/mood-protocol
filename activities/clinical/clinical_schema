@@ -1,0 +1,46 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "demo": "https://raw.githubusercontent.com/ReproNim/reproschema-library/9c7ab57abded2c40dfb8ae9da52171ed2c0fdb6c/activities/demographics_and_background_information_v1/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "clinical_schema",
+    "prefLabel": "clinical determinants",
+    "description": "activity to collect clinical background of the subject",
+    "preamble": "This activity will ask for your clinical background.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "smoking",
+                "isAbout": "demo:smoking"
+            },
+            {
+                "variableName": "clinical_history_voice",
+                "isAbout": "demo:clinical_history_voice"
+            },
+            {
+                "variableName": "clinical_history_voice_other",
+                "isAbout": "demo:clinical_history_voice_other"
+            },
+            {
+                "variableName": "clinical_history_neurology",
+                "isAbout": "demo:clinical_history_neurology"
+            }
+        ],
+        "order": [
+            "demo:smoking",
+            "demo:clinical_history_voice",
+            "demo:clinical_history_voice_other",
+            "demo:clinical_history_neurology"
+        ],
+        "shuffle": false,
+        "allow": [
+			"reproschema:AutoAdvance",
+			"reproschema:AllowExport"
+		]
+    }
+}

@@ -3,10 +3,10 @@
 	"@type": "reproschema:Protocol",
 	"@id": "mood_protocol_schema",
 	"prefLabel": {
-		"en": "Protocol1",
-		"es": "Protocol1_es"
+		"en": "Protocol for Mood Disorders",
+		"es": "Protocolo para los trastornos del estado de ánimo"
 	},
-	"description": "example Protocol",
+	"description": "Protocol for Mood Disorders",
 	"schemaVersion": "1.0.0-rc4",
 	"version": "0.0.1",
 	"landingPage": [{
@@ -23,6 +23,11 @@
 	"ui": {
         "addProperties": [
             {
+                "isAbout": "../activities/audio/audio_check_schema",
+                "variableName": "audio_check_schema",
+                "prefLabel": {"en": "Audio Check"}
+            },
+            {
                 "isAbout": "../activities/demographics/demographics_schema",
                 "variableName": "demographics_schema",
                 "prefLabel": {"en": "Demographics"}
@@ -31,11 +36,24 @@
                 "isAbout": "../activities/social/social_schema",
                 "variableName": "social_schema",
                 "prefLabel": {"en": "Social background"}
+            },
+            {
+                "isAbout": "../activities/clinical/clinical_schema",
+                "variableName": "clinical_schema",
+                "prefLabel": {"en": "Clinical background"}
+            },
+            {
+                "isAbout": "../activities/psychological/psychological_questionnaire_schema",
+                "variableName": "psychological_questionnaire_schema",
+                "prefLabel": {"en": "Psychological questionnaire"}
             }
         ],
     "order": [
+            "../activities/audio/audio_check_schema",
             "../activities/demographics/demographics_schema",
-            "../activities/social/social_schema"
+            "../activities/social/social_schema",
+            "../activities/social/clinical_schema",
+            "../activities/social/psychological_questionnaire_schema"
         ],
 		"shuffle": false,
 		"allow": [
