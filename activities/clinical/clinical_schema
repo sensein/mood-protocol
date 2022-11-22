@@ -20,12 +20,12 @@
             },
             {
                 "variableName": "clinical_history_voice",
-                "isAbout": "demo:clinical_history_voice",
-                "isVis": "clinical_history_voice.includes(-1)"
+                "isAbout": "demo:clinical_history_voice"
             },
             {
                 "variableName": "clinical_history_voice_other",
-                "isAbout": "demo:clinical_history_voice_other"
+                "isAbout": "demo:clinical_history_voice_other",
+                "isVis": "clinical_history_voice === -1"
             },
             {
                 "variableName": "clinical_history_neurology",

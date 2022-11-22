@@ -33,7 +33,7 @@
             {
                 "variableName": "race_ethnicity_global_other",
                 "isAbout": "demo:race_ethnicity_global_other",
-                "isVis": "race_ethnicity_global.includes(-1)"
+                "isVis": "race_ethnicity_global === -1"
             },
             {
                 "variableName": "native_language_multiple",
