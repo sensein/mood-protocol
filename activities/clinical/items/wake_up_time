@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "wake_up_time",
+    "prefLabel": "Wake Up Time",
+    "description": "schema to ask what time the participant woke up this morning",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "What time did you wake up this morning?",
+	    "es": "¿A qué hora te despertaste esta mañana?"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    }
+}

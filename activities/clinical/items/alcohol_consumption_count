@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "alcohol_consumption_count",
+    "prefLabel": "Number of drinks",
+    "description": "schema to ask for the number of alcoholic drinks the participant had today",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "How many drinks containing alcohol have you had?",
+	    "es": "¿Cuántas bebidas que contienen alcohol has tomado?"
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer"
+    }
+}

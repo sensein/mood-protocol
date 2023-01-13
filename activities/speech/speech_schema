@@ -1,0 +1,46 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+        {
+            "voice": "https://raw.githubusercontent.com/ReproNim/reproschema-library/9c7ab57abded2c40dfb8ae9da52171ed2c0fdb6c/activities/VoiceTask/items/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "speech_schema",
+    "prefLabel": "speech tasks",
+    "description": "activity for speech tasks",
+    "preamble": "",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "audio",
+                "isAbout": "voice:animal_fluency"
+            },
+            {
+                "variableName": "audio",
+                "isAbout": "voice:say_ah"
+            },
+            {
+                "variableName": "audio",
+                "isAbout": "voice:rainbow_passage_short_normal"
+            },
+            {
+                "variableName": "audio",
+                "isAbout": "voice:caterpillar"
+            }
+        ],
+        "order": [
+            "voice:animal_fluency",
+            "voice:say_ah",
+            "voice:rainbow_passage_short_normal",
+            "voice:caterpillar"
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
+    }
+}

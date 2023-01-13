@@ -14,7 +14,7 @@
 <div class="container-fluid">
   <h2>Welcome to the Mood Protocol</h2>
   <p>This is a Demonstration Protocol.</p>
-  <p>In this protocol, we will demonstrate the different features of ReproSchema.
+  <p>In this protocol, we will collect some data regarding your mood.
   This includes both voice collection instruments alongside more standardized 
   questionnaires.
   </p>

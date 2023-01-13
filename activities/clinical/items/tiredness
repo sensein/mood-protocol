@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "tiredness",
+    "prefLabel": "Tiredness",
+    "description": "schema to ask how tired the participant is feeling",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "How tired are you? On a scale of 0 to 10",
+	    "es": "¿Qué tan cansado estás? En una escala de 0 a 10"
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 10
+    }
+}

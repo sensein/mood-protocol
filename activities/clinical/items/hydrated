@@ -1,0 +1,50 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "hydrated",
+    "prefLabel": "Hydration",
+    "description": "schema to ask how hydrated the participant is",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "How hydrated are you?",
+	    "es": "¿Que hidratada estas?"
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+	      "multipleChoice": false,
+        "choices": [
+            {
+                "name": {
+	                "en": "Very dehydrated",
+	                "es": "Muy deshidratada"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+	                "en": "Thirsty",
+	                "es": "Sedienta"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+	                "en": "Pretty hydrated",
+	                "es": "Bastante hidratada"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+	                "en": "Very hydrated",
+	                "es": "Muy hidratada"
+                },
+                "value": 4
+            }
+        ]
+    }
+}

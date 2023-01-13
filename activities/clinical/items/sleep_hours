@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "sleep_hours",
+    "prefLabel": "Number of hours slept",
+    "description": "schema to ask for the number of hours the participant slept last night",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+	    "en": "How many hours did you sleep last night?",
+	    "es": "¿Cuántas horas dormiste anoche?"
+    },
+    "ui": {
+        "inputType": "number"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 10
+    }
+}

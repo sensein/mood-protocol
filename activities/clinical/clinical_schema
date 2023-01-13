@@ -19,13 +19,29 @@
                 "isAbout": "demo:smoking"
             },
             {
+                "variableName": "alcohol_consumption",
+                "isAbout": "items/alcohol_consumption"
+            },
+            {
+                "variableName": "alcohol_consumption_count",
+                "isAbout": "items/alcohol_consumption_count"
+            },
+            {
+                "variableName": "dental_oral",
+                "isAbout": "items/dental_oral"
+            },
+            {
+                "variableName": "allergies_cold",
+                "isAbout": "items/allergies_cold"
+            },
+            {
                 "variableName": "clinical_history_voice",
                 "isAbout": "demo:clinical_history_voice"
             },
             {
                 "variableName": "clinical_history_voice_other",
                 "isAbout": "demo:clinical_history_voice_other",
-                "isVis": "clinical_history_voice === -1"
+                "isVis": "clinical_history_voice.includes(-1)"
             },
             {
                 "variableName": "clinical_history_neurology",
@@ -34,6 +50,10 @@
         ],
         "order": [
             "demo:smoking",
+            "items/alcohol_consumption",
+            "items/alcohol_consumption_count",
+            "items/dental_oral",
+            "items/allergies_cold",
             "demo:clinical_history_voice",
             "demo:clinical_history_voice_other",
             "demo:clinical_history_neurology"
