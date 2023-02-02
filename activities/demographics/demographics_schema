@@ -27,8 +27,26 @@
                 "isAbout": "demo:gender_identity"
             },
             {
+                "variableName": "other_specify",
+                "isAbout": "demo:other_specify",
+                "isVis": "gender_identity.includes(-1)"
+            },
+            {
                 "variableName": "sexual_orientation",
                 "isAbout": "demo:sexual_orientation"
+            },
+            {
+                "variableName": "other_specify",
+                "isAbout": "demo:other_specify",
+                "isVis": "sexual_orientation.includes(-1)"
+            },
+            {
+                "variableName": "ethnic_category",
+                "isAbout": "demo:ethnic_category"
+            },
+            {
+                "variableName": "race_ethnicity",
+                "isAbout": "demo:race_ethnicity"
             },
             {
                 "variableName": "race_ethnicity_global",
@@ -48,8 +66,8 @@
                 "isAbout": "demo:dialect"
             },
             {
-                "variableName": "state_of_residence",
-                "isAbout": "demo:state_of_residence"
+                "variableName": "us_state_of_residence",
+                "isAbout": "demo:us_state_of_residence"
             }
         ],
         "order": [
@@ -65,7 +83,7 @@
             "demo:race_ethnicity_global_other",
             "demo:native_language_multiple",
             "demo:dialect",
-            "demo:state_of_residence"
+            "demo:us_state_of_residence"
         ],
         "shuffle": false,
         "allow": [
