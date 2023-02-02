@@ -1,0 +1,22 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+  "@type": "reproschema:Field",
+  "@id": "open_response_stress_cause_describe",
+  "prefLabel": "How the stress causes affect you",
+  "description": "schema to record audio of detailed descriptions of stress causes",
+  "schemaVersion": "1.0.0-rc4",
+  "version": "0.0.1",
+  "preamble": "Please respond to the following prompt with as much detail as possible.",
+  "question": {
+    "en": "Please describe the issue in depth (how it unfolds, the emotions it produces, the thoughts that come to mind, what triggers them).",
+    "es": "Describa el problema en profundidad (cómo se desarrolla, las emociones que produce, los pensamientos que vienen a la mente, qué los desencadena)."
+  },
+  "ui": {
+    "inputType": "audioPassageRecord"
+  },
+  "responseOptions": {
+    "valueType": "schema:AudioObject",
+    "minValue": 0,
+    "maxValue": 30000
+  }
+}

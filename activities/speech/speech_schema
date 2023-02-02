@@ -2,40 +2,65 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "voice": "https://raw.githubusercontent.com/ReproNim/reproschema-library/9c7ab57abded2c40dfb8ae9da52171ed2c0fdb6c/activities/VoiceTask/items/"
+            "voice": "https://raw.githubusercontent.com/ReproNim/reproschema-library/43e7afab312596708c0ad4dfd45b69c8904088ae/activities/VoiceTask/items/"
         }
     ],
     "@type": "reproschema:Activity",
     "@id": "speech_schema",
-    "prefLabel": "speech tasks",
+    "prefLabel": "Speech tasks",
     "description": "activity for speech tasks",
-    "preamble": "",
+    "preamble": "Click the Record button before speaking and then the Stop button once you are done. Use your typical volume and typical pitch.",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
         "addProperties": [
             {
-                "variableName": "audio",
+                "variableName": "animal_fluency",
                 "isAbout": "voice:animal_fluency"
             },
             {
-                "variableName": "audio",
+                "variableName": "say_ah",
                 "isAbout": "voice:say_ah"
             },
             {
-                "variableName": "audio",
+                "variableName": "rainbow",
                 "isAbout": "voice:rainbow_passage_short_normal"
             },
             {
-                "variableName": "audio",
+                "variableName": "caterpillar",
                 "isAbout": "voice:caterpillar"
+            },
+            {
+                "variableName": "stress_cause",
+                "isAbout": "items/open_response_stress_cause"
+            },
+            {
+                "variableName": "stress_cause_describe",
+                "isAbout": "items/open_response_stress_cause_describe"
+            },
+            {
+                "variableName": "coping",
+                "isAbout": "items/open_response_coping"
+            },
+            {
+                "variableName": "positive",
+                "isAbout": "items/open_response_positive"
+            },
+            {
+                "variableName": "describe_image",
+                "isAbout": "voice:describe_image"
             }
         ],
         "order": [
             "voice:animal_fluency",
             "voice:say_ah",
             "voice:rainbow_passage_short_normal",
-            "voice:caterpillar"
+            "voice:caterpillar",
+            "items/open_response_stress_cause",
+            "items/open_response_stress_cause_describe",
+            "items/open_response_coping",
+            "items/open_response_positive",
+            "voice:describe_image"
         ],
         "shuffle": false,
         "allow": [

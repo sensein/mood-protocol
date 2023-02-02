@@ -46,6 +46,21 @@
                 "isAbout": "../activities/psychological/psychological_questionnaire_schema",
                 "variableName": "psychological_questionnaire_schema",
                 "prefLabel": {"en": "Psychological questionnaire"}
+            },
+            {
+                "isAbout": "../activities/speech/speech_schema",
+                "variableName": "speech_schema",
+                "prefLabel": {"en": "Speech tasks"}
+            },
+            {
+                "isAbout": "../activities/writing/writing_schema",
+                "variableName": "writing_schema",
+                "prefLabel": {"en": "Writing prompts"}
+            },
+            {
+                "isAbout": "../activities/feedback/feedback_schema",
+                "variableName": "feedback_schema",
+                "prefLabel": {"en": "Feedback"}
             }
         ],
     "order": [
@@ -53,7 +68,10 @@
             "../activities/demographics/demographics_schema",
             "../activities/social/social_schema",
             "../activities/clinical/clinical_schema",
-            "../activities/psychological/psychological_questionnaire_schema"
+            "../activities/psychological/psychological_questionnaire_schema",
+            "../activities/speech/speech_schema",
+            "../activities/writing/writing_schema",
+            "../activities/feedback/feedback_schema"
         ],
 		"shuffle": false,
 		"allow": [

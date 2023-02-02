@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "good_moments_last_month",
+    "prefLabel": "Good moments in the last month",
+    "description": "schema to record text response of any good moments in the last month",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Describe something good that happened in the last month (big or small). Maybe you helped someone or there was some good news or there was a moment of joy and peace. Where were you, what happened, how did you feel?",
+        "es": "Describa algo bueno que sucedió en el último mes (grande o pequeño). Quizás ayudaste a alguien o hubo una buena noticia o hubo un momento de alegría y paz. ¿Dónde estabas, qué pasó, cómo te sentiste?"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    }
+}

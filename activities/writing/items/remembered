@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "remembered",
+    "prefLabel": "The way you want to be remembered",
+    "description": "schema to record text response of how the participant wants to be remembered",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "How do you want to be remembered at the end of your life by the people who know you well?",
+        "es": "¿Cómo quiere ser recordado al final de su vida por las personas que lo conocen bien?"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    }
+}

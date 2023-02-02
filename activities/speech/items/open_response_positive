@@ -1,0 +1,22 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+  "@type": "reproschema:Field",
+  "@id": "open_response_positive",
+  "prefLabel": "Positive thoughts or emotions",
+  "description": "schema to record audio of positive thoughts or emotions",
+  "schemaVersion": "1.0.0-rc4",
+  "version": "0.0.1",
+  "preamble": "Please respond to the following prompt with as much detail as possible.",
+  "question": {
+    "en": "Could you describe common or notable good thoughts or emotions you’ve had (gratitude, love, hope, beauty, calm, success, growth) with as much detail as possible about what think of and what causes them? You can describe multiple positive thoughts or emotions.",
+    "es": "¿Podría describir los buenos pensamientos o emociones comunes o notables que ha tenido (gratitud, amor, esperanza, belleza, calma, éxito, crecimiento) con el mayor detalle posible sobre lo que piensa y lo que los causa? Puede describir múltiples pensamientos o emociones positivas."
+  },
+  "ui": {
+    "inputType": "audioPassageRecord"
+  },
+  "responseOptions": {
+    "valueType": "schema:AudioObject",
+    "minValue": 0,
+    "maxValue": 30000
+  }
+}

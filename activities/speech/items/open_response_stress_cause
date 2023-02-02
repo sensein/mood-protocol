@@ -1,0 +1,22 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+  "@type": "reproschema:Field",
+  "@id": "open_response_stress_cause",
+  "prefLabel": "Stress causes",
+  "description": "schema to record audio of stress causes",
+  "schemaVersion": "1.0.0-rc4",
+  "version": "0.0.1",
+  "preamble": "Please respond to the following prompt with as much detail as possible.",
+  "question": {
+    "en": "What are some of the things that have been causing you the most stress in the last few days? It could be related to mental health (mood, worry, irritability, energy levels, motivation), family, relationships, finances, work, education, the future or the past.",
+    "es": "¿Cuáles son algunas de las cosas que le han estado causando más estrés en los últimos días? Podría estar relacionado con la salud mental (estado de ánimo, preocupación, irritabilidad, niveles de energía, motivación), la familia, las relaciones, las finanzas, el trabajo, la educación, el futuro o el pasado."
+  },
+  "ui": {
+    "inputType": "audioPassageRecord"
+  },
+  "responseOptions": {
+    "valueType": "schema:AudioObject",
+    "minValue": 0,
+    "maxValue": 30000
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "happy",
+    "prefLabel": "Describe what makes you happy",
+    "description": "schema to record text response of what makes the participant happy",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Describe something that makes you happy. Are you with someone or by yourself? How do you feel? Why does it make you happy? Can you do this often?",
+        "es": "Describe algo que te haga feliz. ¿Estás con alguien o solo? ¿Cómo te sientes? ¿Por qué te hace feliz? ¿Puedes hacer esto a menudo?"
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    }
+}

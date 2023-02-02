@@ -2,7 +2,7 @@
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
         {
-            "voice": "https://raw.githubusercontent.com/ReproNim/reproschema-library/9c7ab57abded2c40dfb8ae9da52171ed2c0fdb6c/activities/VoiceTask/items/"
+            "voice": "https://raw.githubusercontent.com/ReproNim/reproschema-library/43e7afab312596708c0ad4dfd45b69c8904088ae/activities/VoiceTask/items/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -15,7 +15,7 @@
     "ui": {
         "addProperties": [
             {
-                "variableName": "audio",
+                "variableName": "audio_check",
                 "isAbout": "voice:audio_check"
             }
         ],

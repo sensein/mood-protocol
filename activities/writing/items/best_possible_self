@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "best_possible_self",
+    "prefLabel": "Imagine your best possible self",
+    "description": "schema to record text response of the best possible self imagined",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "question": {
+        "en": "Please think about your best possible social and professional self in the next month. Imagine that everything will go as well as it possibly can. Let your creativity flow and describe what exactly would improve, how your daily routine would be, and how you would feel.",
+        "es": "Piense en su mejor yo social y profesional posible en el próximo mes. Imagina que todo saldrá tan bien como sea posible. Deje fluir su creatividad y describa qué mejoraría exactamente, cómo sería su rutina diaria y cómo se sentiría."
+    },
+    "ui": {
+        "inputType": "text"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string"
+    }
+}

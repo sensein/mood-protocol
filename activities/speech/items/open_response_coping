@@ -1,0 +1,22 @@
+{
+  "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+  "@type": "reproschema:Field",
+  "@id": "open_response_coping",
+  "prefLabel": "Coping",
+  "description": "schema to record audio of coping mechanisms",
+  "schemaVersion": "1.0.0-rc4",
+  "version": "0.0.1",
+  "preamble": "Please respond to the following prompt with as much detail as possible.",
+  "question": {
+    "en": "What behaviors and thoughts have you been having to better cope with issues that give you the most stress? What are you interested in trying to change (new relationships, boundaries, acceptance, employment, education, exercise, beginning therapy, meditation, travel, health)?",
+    "es": "¿Qué comportamientos y pensamientos ha tenido para afrontar mejor los problemas que le causan más estrés? ¿Qué le interesa tratar de cambiar (nuevas relaciones, límites, aceptación, empleo, educación, ejercicio, terapia inicial, meditación, viajes, salud)?"
+  },
+  "ui": {
+    "inputType": "audioPassageRecord"
+  },
+  "responseOptions": {
+    "valueType": "schema:AudioObject",
+    "minValue": 0,
+    "maxValue": 30000
+  }
+}

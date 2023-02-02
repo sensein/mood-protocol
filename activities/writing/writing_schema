@@ -1,0 +1,53 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "writing_schema",
+    "prefLabel": "Writing prompts",
+    "description": "activity for writing prompts",
+    "preamble": "Please type out your response as detailed as possible.",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "remembered",
+                "isAbout": "items/remembered"
+            },
+            {
+                "variableName": "happiest",
+                "isAbout": "items/happiest"
+            },
+            {
+                "variableName": "good_moments_last_month",
+                "isAbout": "items/good_moments_last_month"
+            },
+            {
+                "variableName": "self_growth",
+                "isAbout": "items/self_growth"
+            },
+            {
+                "variableName": "best_possible_self",
+                "isAbout": "items/best_possible_self"
+            },
+            {
+                "variableName": "happy",
+                "isAbout": "items/happy"
+            }
+        ],
+        "order": [
+            "items/remembered",
+            "items/happiest",
+            "items/good_moments_last_month",
+            "items/self_growth",
+            "items/best_possible_self",
+            "items/happy"
+        ],
+        "shuffle": false,
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
+    }
+}
