@@ -11,7 +11,7 @@
         "es": "¿Cómo has crecido en el pasado? ¿Has aprendido lecciones importantes sobre ti mismo?"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string"

@@ -8,7 +8,7 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "psychological_questionnaire_schema",
-    "prefLabel": "psychological questionnaire",
+    "prefLabel": "Psychological questionnaire",
     "description": "activity to collect psychological data of the participant",
     "preamble": "This activity will ask you to rate your psychological states",
     "schemaVersion": "1.0.0-rc4",

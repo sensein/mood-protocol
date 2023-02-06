@@ -11,7 +11,7 @@
         "es": "¿Cómo quiere ser recordado al final de su vida por las personas que lo conocen bien?"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string"

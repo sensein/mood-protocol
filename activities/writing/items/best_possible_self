@@ -11,7 +11,7 @@
         "es": "Piense en su mejor yo social y profesional posible en el próximo mes. Imagina que todo saldrá tan bien como sea posible. Deje fluir su creatividad y describa qué mejoraría exactamente, cómo sería su rutina diaria y cómo se sentiría."
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string"

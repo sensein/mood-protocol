@@ -7,7 +7,7 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "audio_check_schema",
-    "prefLabel": "audio check",
+    "prefLabel": "Audio check",
     "description": "activity to test the subject's microphone and audio collection",
     "preamble": "",
     "schemaVersion": "1.0.0-rc4",

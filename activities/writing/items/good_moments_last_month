@@ -11,7 +11,7 @@
         "es": "Describa algo bueno que sucedió en el último mes (grande o pequeño). Quizás ayudaste a alguien o hubo una buena noticia o hubo un momento de alegría y paz. ¿Dónde estabas, qué pasó, cómo te sentiste?"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string"

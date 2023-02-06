@@ -11,7 +11,7 @@
         "es": "¿Cuáles fueron algunos de los momentos más felices de tu vida? ¿Dónde estabas? ¿Qué sucedió? ¿Por qué te hicieron feliz?"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string"

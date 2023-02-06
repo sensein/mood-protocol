@@ -7,7 +7,7 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "social_schema",
-    "prefLabel": "Social determinants",
+    "prefLabel": "Social background",
     "description": "activity to collect social determinants of mental health of the subject",
     "preamble": "This activity will ask for your social background.",
     "schemaVersion": "1.0.0-rc4",

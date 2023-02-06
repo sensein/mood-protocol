@@ -11,7 +11,7 @@
         "es": "Describe algo que te haga feliz. ¿Estás con alguien o solo? ¿Cómo te sientes? ¿Por qué te hace feliz? ¿Puedes hacer esto a menudo?"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string"

@@ -27,7 +27,7 @@
                 "isAbout": "demo:gender_identity"
             },
             {
-                "variableName": "other_specify",
+                "variableName": "gender_other_specify",
                 "isAbout": "demo:other_specify",
                 "isVis": "gender_identity.includes(-1)"
             },
@@ -36,7 +36,7 @@
                 "isAbout": "demo:sexual_orientation"
             },
             {
-                "variableName": "other_specify",
+                "variableName": "sexual_orientation_other_specify",
                 "isAbout": "demo:other_specify",
                 "isVis": "sexual_orientation.includes(-1)"
             },
