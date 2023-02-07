@@ -11,7 +11,7 @@
         "es": "Deje cualquier comentario o sugerencia sobre el estudio para que podamos mejorarlo (u omitir):"
     },
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "responseOptions": {
         "valueType": "xsd:string"
